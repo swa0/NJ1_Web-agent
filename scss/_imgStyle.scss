@@ -1,0 +1,91 @@
+//jumpWindow ic
+.jumpWindow .close_ic {
+    background: url('../images/icon/svg/close_w.svg') no-repeat;
+    background-size: 100%;
+}
+//loading
+.jumpWindow.loading .content div {
+    background: url('../images/icon/svg/loading_b.svg') no-repeat;
+    background-size: 100%;
+}
+.jumpWindow .pageBox .page i {
+    background: url('../images/icon/svg/arrow_g.svg') no-repeat;
+    background-size: contain;
+}
+
+
+////////img↓↓↓↓↓↓↓↓↓
+
+
+//logo
+header .logo {
+    width: 190px;
+    height: 70px;
+    object-fit: contain;
+}
+
+//banner
+.agentPage .topBanner,
+.agOther .topBanner {
+    background: url('../images/agentBn.jpg') no-repeat;
+    background-size: 100%;
+}
+
+//標題側邊裝飾
+.agentPage .title::before,
+.agentPage .title::after,
+.agOther .title::before,
+.agOther .title::after {
+    background: url('../images/icon/agentTitle.png') no-repeat;
+    background-size: 200%;
+}
+
+.agRule .leftArea ul li:hover::after,.agRule .leftArea ul li.active::after,
+.agQA .leftArea ul li:hover::after,.agQA .leftArea ul li.active::after{
+    background: url('../images/icon/agLeftArea.png') no-repeat;
+    background-size: 100%;
+}
+
+.agentPage .icon_1 {
+    background: url('../images/icon/svg/icon-01.svg') no-repeat;
+    background-size: 100%;
+}
+
+.agentPage .icon_2 {
+    background: url('../images/icon/svg/icon-02.svg') no-repeat;
+    background-size: 100%;
+}
+
+.agentPage .icon_3 {
+    background: url('../images/icon/svg/icon-03.svg') no-repeat;
+    background-size: 100%;
+}
+
+.agentPage .icon_4 {
+    background: url('../images/icon/svg/icon-04.svg') no-repeat;
+    background-size: 100%;
+}
+
+.agentPage .icon_5 {
+    background: url('../images/icon/svg/icon-05.svg') no-repeat;
+    background-size: 100%;
+}
+
+//首頁說明圖
+.agentPage .rulePic {
+    background: url('../images/icon/rule.png') no-repeat;
+    background-size: 100%;
+}
+
+//彈窗標題側邊星星裝飾
+.filter .agRegist .title::before,
+.filter .agRegist .title::after {
+    background: url('../images/icon/starIcon.png') no-repeat;
+    background-size: 200%;
+}
+
+//背景圖
+.bg {
+    background: url('../images/agentBg.jpg') no-repeat top center;
+    background-size: cover;
+}
